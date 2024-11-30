@@ -11,8 +11,7 @@ public class Day03Test {
 
     @Test
     void part2Real() throws FileNotFoundException {
-        assertEquals(
-                3952291680L, part2("/java/src/main/java/y2020/Day03/input.txt"));
+        assertEquals(3952291680L, part2("/java/src/main/java/y2020/Day03/input.txt"));
     }
 
     @Test

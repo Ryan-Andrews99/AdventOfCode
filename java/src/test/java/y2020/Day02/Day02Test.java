@@ -31,8 +31,7 @@ public class Day02Test {
 
     @Test
     void parsesFileIntoExpectedOutput() throws FileNotFoundException {
-        var parsedFile =
-                parseInput("/java/src/main/java/y2020/Day02/testInput.txt");
+        var parsedFile = parseInput("/java/src/main/java/y2020/Day02/testInput.txt");
         var expectedMap =
                 new ArrayList<>(
                         Arrays.asList(

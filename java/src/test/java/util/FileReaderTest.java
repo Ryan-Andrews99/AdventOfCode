@@ -11,15 +11,11 @@ public class FileReaderTest {
 
     @Test
     void shouldReadAFileFromAPath() throws FileNotFoundException {
-        assertEquals(
-                "1\n2\n3\n4\n5\n6\n",
-                readFileToString("/java/src/test/java/util/file.txt"));
+        assertEquals("1\n2\n3\n4\n5\n6\n", readFileToString("/java/src/test/java/util/file.txt"));
     }
 
     @Test
     void throwsWhenFileNotFound() {
-        assertThrows(
-                FileNotFoundException.class,
-                () -> readFileToString("not-exsistent-file.txt"));
+        assertThrows(FileNotFoundException.class, () -> readFileToString("not-exsistent-file.txt"));
     }
 }
