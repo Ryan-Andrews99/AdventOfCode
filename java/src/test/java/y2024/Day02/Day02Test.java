@@ -5,6 +5,7 @@ import static y2024.Day02.Day02.*;
 
 import java.io.FileNotFoundException;
 import java.util.List;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class Day02Test {
@@ -16,7 +17,7 @@ public class Day02Test {
 
     @Test
     void par2TestData() throws FileNotFoundException {
-        assertEquals(4, part2("/java/src/main/java/y2024/Day02/testInput.txt"));
+        Assertions.assertEquals(4, part2("/java/src/main/java/y2024/Day02/testInput.txt"));
     }
 
     @Test
