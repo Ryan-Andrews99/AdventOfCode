@@ -1,6 +1,6 @@
 package y2024.Day10;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static y2024.Day10.Day10.part1;
 import static y2024.Day10.Day10.part2;
 

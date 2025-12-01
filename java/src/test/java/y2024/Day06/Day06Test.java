@@ -1,6 +1,6 @@
 package y2024.Day06;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static y2024.Day06.Day06.*;
 
 import java.io.FileNotFoundException;

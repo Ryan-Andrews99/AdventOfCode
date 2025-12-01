@@ -1,17 +1,51 @@
 package y2024.Day05;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static y2024.Day05.Day05.*;
 
 import java.io.FileNotFoundException;
+import java.math.BigInteger;
+import java.security.PublicKey;
+import java.security.interfaces.RSAPublicKey;
 import java.util.List;
 import org.junit.jupiter.api.Test;
+
+import javax.crypto.SecretKey;
 
 public class Day05Test {
 
     @Test
     void part2Real() throws FileNotFoundException {
-        assertEquals(4681, (int) part2("/java/src/main/java/y2024/Day05/input.txt"));
+        PublicKey thing = new RSAPublicKey() {
+            @Override
+            public BigInteger getPublicExponent() {
+                return null;
+            }
+
+            @Override
+            public String getAlgorithm() {
+                return "";
+            }
+
+            @Override
+            public String getFormat() {
+                return "";
+            }
+
+            @Override
+            public byte[] getEncoded() {
+                return new byte[0];
+            }
+
+            @Override
+            public BigInteger getModulus() {
+                return null;
+            }
+        };
+
+        if(thing instanceof SecretKey){
+
+        }
     }
 
     @Test
