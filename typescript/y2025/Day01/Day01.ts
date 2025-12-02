@@ -8,7 +8,6 @@ type LinkedItem = {
 
 export const getPasswordPart2 = (filePath: string) => {
   const loop = createLinkedLoop(100);
-  console.log(loop);
   let current = loop[50];
   let clicksThroughZero = 0;
 
