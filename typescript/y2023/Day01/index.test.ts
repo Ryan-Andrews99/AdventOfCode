@@ -80,15 +80,15 @@ describe("replaceWordNumbersWithDigits tests", () => {
     ).toEqual("8wo");
   });
 
-//   it("handles overlaps", () => {
-//     expect(
-//       replaceWordNumbersWithDigits(
-//         "eightwo",
-//         Object.keys(wordsToNums),
-//         wordsToNums,
-//       ),
-//     ).toEqual("82"); // hate this test
-//   });
+  //   it("handles overlaps", () => {
+  //     expect(
+  //       replaceWordNumbersWithDigits(
+  //         "eightwo",
+  //         Object.keys(wordsToNums),
+  //         wordsToNums,
+  //       ),
+  //     ).toEqual("82"); // hate this test
+  //   });
 });
 
 // describe("returnAnswer2 tests", () => {

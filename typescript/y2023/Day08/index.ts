@@ -71,9 +71,7 @@ export const traverseNodes = (
   // an attempt at TCO even tho JS doesn't support it
 };
 
-const [directions, nodes] = parseInput(
-  readTxtFile("y2023/Day08/input.txt"),
-);
+const [directions, nodes] = parseInput(readTxtFile("y2023/Day08/input.txt"));
 
 //to run this you need to increase the max stack size in node
 // node --stack-size=15000 -r ts-node/register src/adventOfCode2023/day8/index.ts
