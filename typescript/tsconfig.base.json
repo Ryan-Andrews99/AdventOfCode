@@ -12,6 +12,6 @@
     "outDir": "./dist/src",
     "lib": ["es2021"]
   },
-  "include": ["y2023/**/*.ts","y2025/**/*.ts" ],
+  "include": ["y2023/**/*.ts", "y2025/**/*.ts"],
   "exclude": ["src/**/*.test.ts"]
 }

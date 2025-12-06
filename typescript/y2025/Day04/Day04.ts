@@ -10,7 +10,7 @@ const isRoll = (char: string): boolean => char === "@";
 
 export const returnNeighbours = (
   matrix: string[][],
-  position: number[]
+  position: number[],
 ): string[] => {
   const [row, col] = position;
   return [
@@ -27,7 +27,7 @@ export const returnNeighbours = (
 
 const returnRollsWithXNeighbours = (
   input: string[][],
-  maxNeighbours: number
+  maxNeighbours: number,
 ) => {
   const validOnes: number[][] = [];
 
