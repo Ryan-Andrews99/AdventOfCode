@@ -10,7 +10,8 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "outDir": "./dist/src",
-    "lib": ["es2021"]
+    "lib": ["es2021"],
+    "target": "es2022"
   },
   "include": ["y2023/**/*.ts", "y2025/**/*.ts"],
   "exclude": ["src/**/*.test.ts"]
